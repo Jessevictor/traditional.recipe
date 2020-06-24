@@ -38,7 +38,7 @@
     }
   }
   #traditional{
-    color:white;
+    color:peru;
   } 
   .kasarani{
     text-align: center;
@@ -48,7 +48,7 @@
     position: absolute;
   }
   div.kasarani{
-     text-align:left;
+     text-align:center;
   }
   img{
     vertical-align: middle;
@@ -59,14 +59,15 @@
     background-attachment: fixed;
   }
   .kasarani{
-    background-color: darkgrey;
+    background-color:none;
+    color:darkorange;
   }
   .image{
     position: absolute;
     width: 1105px;
     height: 425px;
     left: 23px;
-    top: 308px;
+    top: 250px;
     border-style: hidden;
   }
   span{
@@ -76,6 +77,7 @@
     width:50%;
     margin-left: 25%;
     margin-top: 40%;
+    height:3000px;
   }
   .nyama{
     clear:both;
@@ -83,5 +85,67 @@
   .nyama img{
     float:right;
   }
-
-  
+  .nyama p{
+    color:whitesmoke
+  }
+  .matoke{
+    clear: auto;  
+  }
+  body footer{
+    display: flex;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 10px;
+    background-image:url("/images/Africanfood_copy.jpg");
+    background-position:center;
+    background-repeat:none;
+    background-size:cover;
+  }
+  body{
+    overflow-y: auto;
+  }
+  .video{
+    border-top-left-radius: 50%;
+    position:absolute;
+    width: 1105px;
+    height: 425px;
+    left: 23px;
+    top: 3300px;
+    border-style: hidden;
+  }
+  .video2{
+    border-top-left-radius: 50%;
+    position:absolute;
+    width: 1105px;
+    height: 425px;
+    left: 23px;
+    top: 3000px;
+    border-style: hidden; 
+  }
+  .information{
+    border-top-left-radius: 50%;
+    position:absolute;
+    width: 1105px;
+    height: 425px;
+    left: 23px;
+    top: 3700px;
+    border-style: hidden;  
+  }
+  .class{
+    border-top-left-radius: 50%;
+    position:absolute;
+    width: 1105px;
+    height: 425px;
+    left: 23px;
+    top: 3700px;
+    border-style: hidden;   
+  }
+  span{
+    color:red
+  }
+  .food-left{
+    background-color:grey
+    font-family:courier;
+  }
