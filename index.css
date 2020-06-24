@@ -43,8 +43,45 @@
   .kasarani{
     text-align: center;
     position: absolute;
-    width: 1105px;
-    height: 160px;
-    left: 23px;
-    top: 97px;
   }
+  .zurri{
+    position: absolute;
+  }
+  div.kasarani{
+     text-align:left;
+  }
+  img{
+    vertical-align: middle;
+  }
+  body{
+    background-image: url(/images/7056.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .kasarani{
+    background-color: darkgrey;
+  }
+  .image{
+    position: absolute;
+    width: 1105px;
+    height: 425px;
+    left: 23px;
+    top: 308px;
+    border-style: hidden;
+  }
+  span{
+    color:beige
+  }
+  #recipe{
+    width:50%;
+    margin-left: 25%;
+    margin-top: 40%;
+  }
+  .nyama{
+    clear:both;
+  }
+  .nyama img{
+    float:right;
+  }
+
+  
